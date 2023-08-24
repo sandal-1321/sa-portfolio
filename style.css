@@ -1546,3 +1546,235 @@ body {
 
 
 }
+
+/* 400 tab view */
+
+@media(max-width:400px) {
+    .nav {
+        width: 100%;
+    }
+
+    .brand a {
+        margin-left: 50px;
+    }
+
+    .sec2-left {
+        height: 60vh;
+    }
+
+    .left-1 {
+        font-size: 100%;
+    }
+
+    .left-2 {
+        font-size: 80%;
+    }
+
+    .sec-left-ski p,
+    .sec-left-ski li {
+        font-size: 70%;
+        ;
+    }
+
+    .sec-left-ski {
+        height: 20px;
+
+    }
+
+    @keyframes skil {
+        0% {
+            transform: translateY(0px);
+        }
+
+        25% {
+            transform: translateY(-20px);
+        }
+
+        50% {
+            transform: translateY(-40px);
+        }
+
+        75% {
+            transform: translateY(-20px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    .left-3 {
+        font-size: 40%;
+        margin-left: 40px;
+
+    }
+
+    .sec1-icon {
+        margin-left: 5%;
+        margin-bottom: 45px;
+    }
+
+    .sec1-icon a {
+        font-size: 15px;
+        margin: 0px 7px;
+        padding: 5px 8px;
+    }
+
+    .sec1-btn {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+
+    .sec2-rig {
+        height: 40vh;
+    }
+
+    .rig-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .ring {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sec3-3 img:nth-child(2),
+    .sec3-3 img:nth-child(3),
+    .sec3-3 .span3,
+    .sec3-3 .span2 {
+        display: none;
+    }
+
+    .sec3-4 {
+        margin-bottom: 150px;
+    }
+
+    .sec3-4 h1 {
+        margin: 50px 0px 40px 0px;
+    }
+
+    .sec3-3 .span1 {
+        margin-left: 38px;
+    }
+
+    .sec3-4 p {
+        font-size: 80%;
+        margin: 0px 0px 70px 0px;
+        text-align: center;
+        text-indent: 0px;
+    }
+
+    .sec3-4 a {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 70px 0px 20px 60px;
+    }
+
+    .sec4-5 {
+        margin-left: 20px;
+    }
+
+    .sec4-3 {
+        height: 100vh;
+    }
+
+    .sec4-3 h3,
+    .sec4-4 h3 {
+        font-size: 150%;
+    }
+
+    .sec4-4 {
+        height: 130vh;
+    }
+
+    .sec4-8 {
+        margin-top: 40px;
+
+    }
+
+    .sec4-7,
+    .sec4-7-1,
+    .sec4-7-2,
+    .sec4-7-3,
+    .sec4-7-4 {
+        width: 100%;
+    }
+
+    .sec4-6 span {
+        left: 80%;
+    }
+
+    .sec4-6:nth-child(2) span {
+        left: 70%;
+    }
+
+    .sec4-6:nth-child(3) span {
+        left: 60%;
+    }
+
+    .sec4-6:nth-child(4) span {
+        left: 60%;
+    }
+
+    .sec4-6:nth-child(5) span {
+        left: 50%;
+    }
+
+    .sec4-8 {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+
+    .sec5-3 {
+        grid-template-columns: 100%;
+    }
+
+    .sec6-4 {
+        height: 65vh;
+    }
+
+    .fi1 input {
+        width: 300px;
+    }
+
+    .sec6-icon {
+        margin-top: 40px;
+        font-size: 80%;
+    }
+
+    .sec6-icon a {
+        margin: 0px 10px;
+
+    }
+
+
+    .sec5-4 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .sec5-5 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .sec5-5 img {
+        width: 180px;
+        height: 180px;
+        overflow: hidden !important;
+    }
+
+    .sec5-6 h1,
+    .sec5-6 p {
+        font-size: 100%;
+    }
+
+    .sec5-6 {
+        width: 180px;
+        height: 180px;
+        top: 350px
+    }
+}
